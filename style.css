@@ -1,14 +1,35 @@
 body{background:#f5f5f0;}
 
-table{
+.one{
   
-  float:left;
-  border: 1px solid black;
- min-width:450px;
-margin: 5px;
+    float:left;
+    border: 1px solid black;
+    min-width:450px;
+    margin: 5px;
+}
+.two{
+  
+    float:left;
+    border: 1px solid black;
+    min-width:450px;
+    margin: 5px;
+}
+.three{
+  
+    float:left;
+    border: 1px solid black;
+    min-width:450px;
+    margin: 5px;
+}
+.four{
+  
+    float:left;
+    border: 1px solid black;
+    min-width:450px;
+    margin: 5px;
 }
 .upper{
-    
+    clear:both;
     max-width: 920px;
     
 }
@@ -20,25 +41,50 @@ margin: 5px;
 td {
     
     padding: 10px;
-  max-width:2000px;
-width:auto;
-min-width:10px;
-font-size:12px;
+    max-width:2000px;
+    width:auto;
+    min-width:10px;
+    font-size:12px;
     
     
 }
+
+.teams li:nth-child(even) {background: #333}
+
 th{
     width:auto;
 }
 
-tr:nth-child(even) {background: #CCC}
+.cells tr:nth-child(even) {background: #CCC}
 
-tr:nth-last-child(1){
+.cells tr:nth-last-child(1){
     background: #f5f5f0;
     font-weight:bold;
 }
 tr:first-child{
-   font-weight:900;
+    font-weight:900;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
 }
 
 
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #999;
+}
