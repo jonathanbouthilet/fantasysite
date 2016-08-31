@@ -1,7 +1,11 @@
-table{
-    table-layout: fixed;
-    
+body{background:#f5f5f0;}
 
+table{
+  
+  float:left;
+  border: 1px solid black;
+ min-width:450px;
+margin: 5px;
 }
 
 td {
@@ -15,11 +19,16 @@ font-size:12px;
     
 }
 th{
-    padding:15px;
-
-max-width:200px;
-width:auto;
-min-width:10px;
+    width:auto;
 }
 
 tr:nth-child(even) {background: #CCC}
+
+tr:nth-last-child(1){
+    background: #f5f5f0;
+    font-weight:bold;
+}
+tr:first-child{
+   font-weight:900;
+}
+
