@@ -1,5 +1,8 @@
 
-body{background:#f5f5f0;}
+body{background:#f5f5f0;
+    min-width:350px;
+    
+}
 
 .one{
   
@@ -32,11 +35,13 @@ body{background:#f5f5f0;}
 .upper{
     clear:both;
     max-width: 920px;
+   
     
 }
 .lower{
     
-    max-width: 920px
+    max-width: 920px;
+   
     
 }
 td {
@@ -90,4 +95,20 @@ li a {
 
 li a:hover {
     background-color: #999;
+}
+.button-one{
+    width:190px;
+    
+}
+.button-two{
+   width:190px;
+    
+}
+.button-three{
+    width:190px;
+    
+}
+.button-four{
+    width:190px;
+    
 }
