@@ -1,13 +1,14 @@
 $(document).ready(function(){
     
-    
+    // old API call  url: "https://sheets.googleapis.com/v4/spreadsheets/1akhr89xy3Ka0uU__DFQwFOiX9LWSEief_TtuR-g685o/values/A1%3AE257?key=AIzaSyAu87BNGJXdihEYsIOEjI8pMU9dntFcd3o",
 	 $.ajax({
-        url: "https://sheets.googleapis.com/v4/spreadsheets/1akhr89xy3Ka0uU__DFQwFOiX9LWSEief_TtuR-g685o/values/A1%3AE257?key=AIzaSyAu87BNGJXdihEYsIOEjI8pMU9dntFcd3o",
+	     
+        url: "https://sheets.googleapis.com/v4/spreadsheets/1akhr89xy3Ka0uU__DFQwFOiX9LWSEief_TtuR-g685o/values/A1:E257?key=AIzaSyAu87BNGJXdihEYsIOEjI8pMU9dntFcd3o",
         // Handle as Text
                 
         dataType: "text",
         success: function(data) {
-                     
+                    
             // Parse JSON file
             var obj = $.parseJSON(data);
             //Store data into a variable
@@ -131,7 +132,7 @@ $(document).ready(function(){
                 $('.button-four').empty();
     
 	 $.ajax({
-        url: "https://sheets.googleapis.com/v4/spreadsheets/1akhr89xy3Ka0uU__DFQwFOiX9LWSEief_TtuR-g685o/values/A1%3AE257?key=AIzaSyAu87BNGJXdihEYsIOEjI8pMU9dntFcd3o",
+        url: "https://sheets.googleapis.com/v4/spreadsheets/1akhr89xy3Ka0uU__DFQwFOiX9LWSEief_TtuR-g685o/values/A1:E257?key=AIzaSyAu87BNGJXdihEYsIOEjI8pMU9dntFcd3o",
         // Handle as Text
                 
         dataType: "text",
@@ -260,7 +261,7 @@ function Two(){
                 $('.button-four').empty();
     
 	 $.ajax({
-        url: "https://sheets.googleapis.com/v4/spreadsheets/1akhr89xy3Ka0uU__DFQwFOiX9LWSEief_TtuR-g685o/values/A1%3AE257?key=AIzaSyAu87BNGJXdihEYsIOEjI8pMU9dntFcd3o",
+        url: "https://sheets.googleapis.com/v4/spreadsheets/1akhr89xy3Ka0uU__DFQwFOiX9LWSEief_TtuR-g685o/values/A1:E257?key=AIzaSyAu87BNGJXdihEYsIOEjI8pMU9dntFcd3o",
         // Handle as Text
                 
         dataType: "text",
@@ -389,7 +390,7 @@ function Three(){
                 $('.button-four').empty();
     
 	 $.ajax({
-        url: "https://sheets.googleapis.com/v4/spreadsheets/1akhr89xy3Ka0uU__DFQwFOiX9LWSEief_TtuR-g685o/values/A1%3AE257?key=AIzaSyAu87BNGJXdihEYsIOEjI8pMU9dntFcd3o",
+        url: "https://sheets.googleapis.com/v4/spreadsheets/1akhr89xy3Ka0uU__DFQwFOiX9LWSEief_TtuR-g685o/values/A1:E257?key=AIzaSyAu87BNGJXdihEYsIOEjI8pMU9dntFcd3o",
         // Handle as Text
                 
         dataType: "text",
@@ -518,7 +519,7 @@ function Four(){
                 $('.button-four').empty();
     
 	 $.ajax({
-        url: "https://sheets.googleapis.com/v4/spreadsheets/1akhr89xy3Ka0uU__DFQwFOiX9LWSEief_TtuR-g685o/values/A1%3AE257?key=AIzaSyAu87BNGJXdihEYsIOEjI8pMU9dntFcd3o",
+        url: "https://sheets.googleapis.com/v4/spreadsheets/1akhr89xy3Ka0uU__DFQwFOiX9LWSEief_TtuR-g685o/values/A1:E257?key=AIzaSyAu87BNGJXdihEYsIOEjI8pMU9dntFcd3o",
         // Handle as Text
                 
         dataType: "text",
@@ -632,4 +633,4 @@ function Four(){
       
       
             }
-             
+            
