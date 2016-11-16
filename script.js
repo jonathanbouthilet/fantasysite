@@ -25,9 +25,11 @@ $(document).ready(function(){
                     if(i!=15)
                         $('.one tr:last').append("<td>" + obj.values[i][j] + "</td>" );  
                 }
-                          
+                       
                           
             } //end table loop
+            
+            
             
              $('.two').append("<caption><b>" +obj.values[17][0] +"</b></caption>");
             
@@ -76,6 +78,10 @@ $(document).ready(function(){
                           
                           
             } //end table loop
+            
+          
+          //use 16 4 for the total number, also can add in the sheet the leader
+          // $('.test').append("<b>" + obj.values[16][4] +"</b>"); 
            
             
              //Team Buttons        
